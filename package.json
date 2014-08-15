@@ -1,0 +1,24 @@
+{
+  "name": "rvideostop20",
+  "version": "0.0.0",
+  "description": "rVideosTop20 ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xingfuryda/rVideosTop20.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xingfuryda/rVideosTop20/issues"
+  },
+  "homepage": "https://github.com/xingfuryda/rVideosTop20",
+  "dependencies": {
+    "express": "^4.8.4",
+    "feed": "^0.2.6",
+    "feed-read": "0.0.1"
+  }
+}
