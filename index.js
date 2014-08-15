@@ -5,7 +5,7 @@ var feed = require("feed-read"),
     urls = [],
     articleList = [],
     Feed = require("feed");
-    
+
 app.listen(process.env.PORT);
 console.log('Express server started on port %s', process.env.PORT);
     
@@ -17,7 +17,7 @@ app.get('/', function(req, res){
 
     getArticles(function(){
         for (var i = articleList.length; i--; ) {
-            res.write(articleList[i]);
+            res.write(articleList[i] + '\r\n');
         }
         res.end();
     });
